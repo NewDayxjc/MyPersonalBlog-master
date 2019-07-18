@@ -1,0 +1,55 @@
+# ===================================================================
+# 分布式文件系统FDFS配置
+# ===================================================================
+fdfs:
+    resHost: 39.96.94.165
+    storagePort: 8888
+    so-timeout: 9999
+    connect-timeout: 601
+    thumb-image:             #缩略图生成参数
+        width: 150
+        height: 150
+    tracker-list:            #TrackerList参数,支持多个
+        - 39.96.94.165:22122
+server:
+  port: 8081
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://39.96.94.165:3306/myblog?characterEncoding=utf8&useSSL=false
+    username: root
+    password: hhwoai44
+    type: com.alibaba.druid.pool.DruidDataSource
+  redis:
+      host: 39.96.94.165
+      database: 0
+      port: 6379
+      jedis:
+        pool:
+          max-active: 8
+          max-idle: 8
+          min-idle: 0
+          max-wait: -1
+      timeout: 10000
+      password: hhwoai44
+  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 0
+      max-file-size: 100MB
+      max-request-size: 100MB
+logging:
+  file: 'log/Blog.log'
+  level:
+    com.blog.hh.personalblog: info
+## 开启驼峰到下划线的映射
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+mybatis:
+    configuration:
+        map-underscore-to-camel-case: true
+        default-fetch-size: 100
+        default-statement-timeout: 3000
+    type-aliases-package: com.blog.hh.personalblog.dto
+    mapper-locations: classpath:mapper/*.xml
