@@ -7,8 +7,6 @@ import javax.servlet.http.HttpSession;
 import org.springframework.util.StringUtils;
 import org.springframework.web.servlet.HandlerInterceptor;
 /**
-*author huangh
-*date 2019/6/2 9:47
 *description 登陆验证
 */
 public class LoginInterceptor implements HandlerInterceptor {

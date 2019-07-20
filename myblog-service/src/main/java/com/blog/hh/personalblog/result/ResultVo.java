@@ -5,8 +5,6 @@ import java.util.Collections;
 import java.util.stream.Collectors;
 
 /**
-*author huangh
-*date 2018/12/28 16:51
 *description 返回对象
 */
 public class ResultVo {

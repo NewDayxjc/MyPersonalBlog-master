@@ -6,8 +6,6 @@ import javax.validation.constraints.NotNull;
 import lombok.Data;
 
 /**
-*author huangh
-*date 2018/12/28 17:03
 *description 用户传输对象
 */
 @Data

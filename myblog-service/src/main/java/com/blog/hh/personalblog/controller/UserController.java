@@ -26,7 +26,6 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
-*author huangh
 *date 2018/12/28 16:50
 *description 用户模块
 */
@@ -42,7 +41,6 @@ public class UserController {
   private RedisTemplate redisTemplate;
 
   /**
-  *author huangh
   *date 2018/12/28 18:13
   *description 登陆
   */
@@ -61,7 +59,6 @@ public class UserController {
     return ResultVo.success();
   }
   /**
-  *author huangh
   *date 2019/6/5 20:59
   *description
   */
@@ -76,7 +73,6 @@ public class UserController {
 }
 
   /**
-  *author huangh
   *date 2018/12/28 18:19
   *description 访问主页时获取用户信息
   */

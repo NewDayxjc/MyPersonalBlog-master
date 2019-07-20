@@ -15,7 +15,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
-*author huangh
 *date 2018/12/29 18:14
 *description 分类模块
 */

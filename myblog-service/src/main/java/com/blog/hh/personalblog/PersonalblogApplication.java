@@ -11,10 +11,8 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
-@EnableAutoConfiguration
 @EnableScheduling
 @Configuration
-@ComponentScan
 @MapperScan(basePackages = "com.blog.hh.personalblog.mapper")
 public class PersonalblogApplication extends SpringBootServletInitializer {
 

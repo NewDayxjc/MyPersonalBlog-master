@@ -3,8 +3,6 @@ package com.blog.hh.personalblog.enums;
 import lombok.Getter;
 
 /**
-*author huangh
-*date 2018/12/28 17:33
 *description 博客枚举类 枚举了各种请求各种状态
 */
 @Getter

@@ -5,8 +5,6 @@ import lombok.Getter;
 import lombok.Setter;
 
 /**
-*author huangh
-*date 2018/12/28 17:32
 *description 个人博客
 */
 @Getter

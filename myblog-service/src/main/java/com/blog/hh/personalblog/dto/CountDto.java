@@ -5,8 +5,6 @@ import com.blog.hh.personalblog.Vo.BaseVo;
 import lombok.Data;
 
 /**
-*author huangh
-*date 2019/1/13 20:16
 *description 阅读量
 */
 @Data

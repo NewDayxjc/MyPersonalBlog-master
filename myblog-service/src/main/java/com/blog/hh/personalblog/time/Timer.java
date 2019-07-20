@@ -11,8 +11,6 @@ import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
 /**
-*author huangh
-*date 2019/1/20 12:51
 *description 定时任务
 */
 @EnableScheduling

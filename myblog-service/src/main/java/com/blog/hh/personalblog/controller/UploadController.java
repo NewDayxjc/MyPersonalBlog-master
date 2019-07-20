@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
 /**
-*author huangh
 *date 2019/1/6 10:12
 *description 上传文件
 */

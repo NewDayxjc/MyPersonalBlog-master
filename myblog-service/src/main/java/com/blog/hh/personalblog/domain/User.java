@@ -4,7 +4,6 @@ import com.blog.hh.personalblog.Vo.BaseVo;
 import java.util.Date;
 
 /**
- *author huangh
  *date 2018/12/28 16:44
  *description 用户实体类
  */

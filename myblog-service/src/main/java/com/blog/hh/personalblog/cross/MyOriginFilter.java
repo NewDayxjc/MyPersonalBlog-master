@@ -17,8 +17,6 @@ import org.springframework.stereotype.Component;
 
 /**
  * 处理跨域问题
- * @author MR.ZHENG
- * @date 2016/08/08
  *
  */
 @Component

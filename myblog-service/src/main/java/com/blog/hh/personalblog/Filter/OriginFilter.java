@@ -12,8 +12,6 @@ import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.stereotype.Component;
 /**
-*author huangh
-*date 2018/12/29 16:19
 *description 解决跨域
 */
 @Component
